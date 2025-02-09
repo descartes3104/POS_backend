@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'tech0-gen8-step4-pos-app-94'
           slot-name: 'Production'
-          package: backend
+          package: ./deploy
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EEDB6C713CBB4D049935F19129448B0E }}
