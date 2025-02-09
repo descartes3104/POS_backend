@@ -31,7 +31,7 @@ jobs:
           pytest || echo "No tests found, skipping."
       
       - name: Archive app for deployment
-        run: zip -r release.zip POS_backend/
+        run: zip -r release.zip backend/
       
       - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
